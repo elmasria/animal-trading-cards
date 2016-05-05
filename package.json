@@ -1,0 +1,24 @@
+{
+  "name": "animal-trading-cards",
+  "version": "0.0.1",
+  "description": "Animal Trading Cards,Udacity nanondegree project",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmasria/animal-trading-cards.git"
+  },
+  "keywords": [
+    "Udacity",
+    "Animal Trading Cards",
+    "nanodegree"
+  ],
+  "author": "Ahmad El Masri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmasria/animal-trading-cards/issues"
+  },
+  "homepage": "https://github.com/elmasria/animal-trading-cards#readme"
+}
