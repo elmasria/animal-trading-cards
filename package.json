@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/elmasria/animal-trading-cards/issues"
   },
-  "homepage": "https://github.com/elmasria/animal-trading-cards#readme"
+  "homepage": "https://github.com/elmasria/animal-trading-cards#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^1.4.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^0.1.7",
+    "grunt-serve": "^0.1.6"
+  }
 }
