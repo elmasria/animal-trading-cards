@@ -26,11 +26,11 @@ li {
 	padding: 0px;
 }
 
-.list li {
+.italic-li {
 	font-style: italic;
 }
 
-#italics {
+.italic-paragraph {
 	font-style: italic;
 	font-size: 20px;
 }
@@ -49,10 +49,10 @@ li {
 	border: 1px solid #939393;
 	box-shadow: 5px 5px 10px #939393;
 	margin: 0 auto;
-	width: 75%;
+	width: 350px;
 }
 
 .img-banner-div {
-	width: 94%;
+	width: 300px;
 	margin: auto;
 }
