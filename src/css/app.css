@@ -1,47 +1,58 @@
-body{
+body {
 	font-size: 20px;
 }
-p{
+
+p {
 	padding: 0 5px 0 10px;
 }
-h3{
+
+h3 {
 	padding: 0 0 0 10px;
 	margin: 10px;
 	font-weight: bold;
 	font-size: 30px;
 }
-img{
+
+img {
 	width: 100%;
 }
-ul{
+
+ul {
 	list-style-type: none;
 	padding-left: 10px;
 }
-li{
+
+li {
 	padding: 0px;
 }
-.list li{
+
+.list li {
 	font-style: italic;
 }
-#italics{
+
+#italics {
 	font-style: italic;
 	font-size: 20px;
 }
-.fish-information{
-	font-weight:bold;
-	font-style:normal;
+
+.fish-information {
+	font-weight: bold;
+	font-style: normal;
 }
-.boundary{
+
+.boundary {
 	border: 2px solid #a8a8a8;
 	margin: 2px 10px 10px 10px;
 }
-.container{
+
+.container {
 	border: 1px solid #939393;
 	box-shadow: 5px 5px 10px #939393;
 	margin: 0 auto;
 	width: 75%;
 }
-.img-banner-div{
+
+.img-banner-div {
 	width: 94%;
 	margin: auto;
 }

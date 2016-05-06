@@ -8,4 +8,4 @@ Animal Trading Cards, Udacity Front-End Web Developer Nanodegree project
 * run ``` npm install ```
 * navigate to project folder
 * run ``` grunt ```
-* open web browser: localhost:8000/dist
+* open web browser: http://localhost:8000/dist/index.html

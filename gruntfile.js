@@ -14,18 +14,6 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		uglify: {
-			build: {
-				files: [{
-					expand: true,
-					cwd: 'src/js',
-					src: ['**/*.js'],
-					dest: 'dist/js',
-					ext: '.min.js'
-				}]
-
-			}
-		},
 		cssmin: {
 			options: {
 				shorthandCompacting: false,
@@ -37,7 +25,7 @@ module.exports = function(grunt) {
 					cwd: 'src/css',
 					src: ['*.css', '!*.min.css'],
 					dest: 'dist/css',
-					ext: '.min.css'
+					ext: '.css'
 				}]
 			}
 		},
@@ -80,5 +68,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-mkdir');
 	grunt.loadNpmTasks('grunt-serve');
 
-	grunt.registerTask('default', ['clean', 'uglify', 'htmlmin', 'cssmin', 'mkdir', 'copy', 'serve']);
+	grunt.registerTask('default', ['clean','htmlmin', 'cssmin', 'mkdir', 'copy', 'serve']);
 }
